@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspapi", "Aspapi.csproj", "{977C4E2F-C618-4280-B83A-AD664141A84D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1A4F80B1-606F-45A3-9C60-6AC2EE2F047F} = {1A4F80B1-606F-45A3-9C60-6AC2EE2F047F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldCities", "..\..\..\Desktop\Comp 584\WorldCities\WorldCities.csproj", "{1A4F80B1-606F-45A3-9C60-6AC2EE2F047F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{977C4E2F-C618-4280-B83A-AD664141A84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{977C4E2F-C618-4280-B83A-AD664141A84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{977C4E2F-C618-4280-B83A-AD664141A84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{977C4E2F-C618-4280-B83A-AD664141A84D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A4F80B1-606F-45A3-9C60-6AC2EE2F047F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4F80B1-606F-45A3-9C60-6AC2EE2F047F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4F80B1-606F-45A3-9C60-6AC2EE2F047F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4F80B1-606F-45A3-9C60-6AC2EE2F047F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {459589A6-5A45-416F-91AD-AB4E41E21C50}
+	EndGlobalSection
+EndGlobal
